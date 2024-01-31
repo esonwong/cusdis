@@ -89,6 +89,7 @@ export class NotificationService extends RequestScopeService {
         this.emailService.send(msg)
       } catch (e) {
         // TODO:
+        console.error(e)
       }
     }
   }
